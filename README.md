@@ -5,8 +5,16 @@ Bu depo, Node.js öğrenme sürecimde geliştirdiğim örnek projeleri ve kodlar
 ## İçerik
 
 - Film Yönetim API'si
+- MongoDB ile CRUD işlemleri
+- Express.js ile RESTful API tasarımı
 - Basit HTTP istekleri örnekleri
 - Frontend entegrasyonları
+
+## Proje Yapısı
+
+- `node_mongo/` - MongoDB ve Node.js entegrasyonu örnekleri
+- `node_express/` - Express.js web uygulaması örnekleri
+- Diğer HTML, CSS ve JavaScript dosyaları
 
 ## Kurulum
 
@@ -21,9 +29,33 @@ cd nodejsLearn-2.sinif-
 npm install
 ```
 
+## MongoDB Örneği
+
+MongoDB örneği, temel CRUD (Create, Read, Update, Delete) işlemlerini göstermektedir. 
+Çalıştırmak için:
+
+```bash
+cd node_mongo
+npm install
+node app.js
+```
+
+## Express.js Örneği
+
+Express.js örneği, RESTful API tasarımı ve HTTP isteklerini göstermektedir.
+Çalıştırmak için:
+
+```bash
+cd node_express
+npm install
+node app.js
+```
+
+Uygulama `http://localhost:3000` adresinde çalışacaktır.
+
 ## Kullanım
 
-Örnek projeler ayrı HTML ve JavaScript dosyaları olarak organize edilmiştir. Her bir örneği tarayıcınızda açabilir veya Node.js ortamında çalıştırabilirsiniz.
+Örnek projeler ayrı klasörler olarak organize edilmiştir. Her bir örneği tarayıcınızda açabilir veya Node.js ortamında çalıştırabilirsiniz.
 
 ## Katkıda Bulunma
 
