@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Film Yönetim Sistemi</title>
+  <link rel="stylesheet" href="movieApi.css">
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Film Yönetim Sistemi</h1>
+  </header>
+
+  <!-- Film Listesi -->
+  <section id="movie-section">
+    <h2>Filmler</h2>
+    <ul id="movie-list"></ul>
+  </section>
+
+  <!-- Yönetmen Listesi -->
+  <section id="director-section">
+    <h2>Yönetmenler</h2>
+    <ul id="director-list"></ul>
+  </section>
+
+  <!-- Film Ekleme Formu -->
+  <section id="add-movie-section">
+    <h2>Yeni Film Ekle</h2>
+    <form id="add-movie-form">
+      <label for="movie-title">Film Adı:</label>
+      <input type="text" id="movie-title" name="title" required>
+      <label for="movie-director">Yönetmen:</label>
+      <input type="text" id="movie-director" name="director" required>
+      <button type="submit">Film Ekle</button>
+    </form>
+  </section>
+
+  <!-- Yönetmen Ekleme Formu -->
+  <section id="add-director-section">
+    <h2>Yeni Yönetmen Ekle</h2>
+    <form id="add-director-form">
+      <label for="director-name">Yönetmen Adı:</label>
+      <input type="text" id="director-name" name="name" required>
+      <button type="submit">Yönetmen Ekle</button>
+    </form>
+  </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
